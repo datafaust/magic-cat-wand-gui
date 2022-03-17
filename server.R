@@ -1,8 +1,5 @@
 library(shiny)
 library(shinyjs)
-library(async)
-library(promises)
-library(future)
 library(shinyWidgets)
 
 source("./servo_functions.R")
