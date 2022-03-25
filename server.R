@@ -134,7 +134,7 @@ server <- function(input, output, session) {
                tags$button(
                  id = "advanced",
                  class = "btn action-button",
-                 tags$img(src = "catIntermediate.png",
+                 tags$img(src = "catAdvanced.png",
                           height = "100px")
                ),
                fluidRow(
