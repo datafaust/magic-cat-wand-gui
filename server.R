@@ -228,6 +228,6 @@ server <- function(input, output, session) {
       paste0("Job Status: ",if(is.null(connection$job_type)) { "No Job Running" } else { isolate(connection$job_type) } )
       
     })
-   
+  
 }
 
